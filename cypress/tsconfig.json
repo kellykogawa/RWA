@@ -1,6 +1,6 @@
 {
   "extends": "../tsconfig.json",
-  "include": ["./**/*.ts", "../cypress.d.ts"],
+  "include": ["./**/*.ts", "../cypress.d.ts", "tests/login/login.spec.ts"],
   "exclude": [],
   "compilerOptions": {
     "types": ["cypress", "@percy/cypress"],
