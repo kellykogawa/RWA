@@ -1,0 +1,22 @@
+{
+    "loginSuccess": {
+      "username": "Heath93",
+      "password": "s3cret"
+    },
+    "loginFail": {
+      "username": "Test",
+      "password": "Test"
+  },
+    "signupSuccess": {
+      "firstname": "Test",
+      "lastname": "Test",
+      "username": "Test",
+      "password": "Testando"
+  },
+    "signupFail": {
+      "firstname": "Test",
+      "lastname": "Test",
+      "username": "Test",
+      "password": "Test"
+  }
+}
