@@ -1,16 +1,15 @@
 class HomePage {
+  selectorsList() {
+    const selectors = {
+      homedGrid: '[data-test="sidenav-home"]',
+    };
 
-    selectorsList() {
-        const selectors = {
-            homedGrid: '[data-test="sidenav-home"]'
-        }
+    return selectors;
+  }
 
-        return selectors
-    }
-
-    checkHomePage() {
-        cy.get(this.selectorsList().homedGrid).should('be.visible')
-    }
+  checkHomePage() {
+    cy.get(this.selectorsList().homedGrid).should("be.visible");
+  }
 }
 
-export default HomePage
+export default HomePage;
