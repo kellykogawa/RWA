@@ -7,7 +7,7 @@ class LoginPage {
       passwordField: "[name='password']",
       loginButton: "[type='submit']",
       wrongCredentialAlert: "[data-test='signin-error']",
-      signupPageButton: "[data-test='signup']",
+      signupPageButton: "[data-test='signup']"
     };
 
     return selectors;

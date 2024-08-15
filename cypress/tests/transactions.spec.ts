@@ -9,7 +9,7 @@ const loginPage = new LoginPage();
 const transactionPage = new TransactionPage()
 
 describe('Enviar dinheiro com saldo suficiente', () => {
-    it("Deve enviar dinheiro com sucesso", () => {
+  it("Deve enviar dinheiro com sucesso", () => {
     loginPage.accessLoginPage();
     loginPage.loginWithAnyUser(userData.loginSuccess.username, userData.loginSuccess.password);
     homePage.checkHomePage();
